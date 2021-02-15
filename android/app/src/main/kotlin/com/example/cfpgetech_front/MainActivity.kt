@@ -1,4 +1,4 @@
-package com.example.getech_app
+package com.example.cfpgetech_front
 
 import io.flutter.embedding.android.FlutterActivity
 

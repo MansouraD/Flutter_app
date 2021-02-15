@@ -1,5 +1,5 @@
-name: getech_app
-description: GETECH Flutter application.
+name: cfpgetech_front
+description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
 # pub.dev using `pub publish`. This is preferred for private packages.
@@ -21,22 +21,17 @@ environment:
   sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
+  http: ^0.12.0
   flutter:
     sdk: flutter
 
 
-
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.1
-  carousel_pro: ^1.0.0
-  flutter_staggered_grid_view: ^0.3.3
-
+  cupertino_icons: ^1.0.0
 
 dev_dependencies:
   flutter_test:
-    sdk: flutter
-  integration_test:
     sdk: flutter
 
 # For information on the generic Dart part of this file, see the
@@ -52,16 +47,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - images/logo.png
-    - images/femmes2.jpeg
-    - images/entrepreneur.jpeg
-    - images/enfantVillageois.jpg
-    - images/entrepreneur.jpg
-    - images/GETECH.png
-    - images/cible.png
-    - images/CONETEXTE1.png
-    - images/ENJEUX.png
-    - images/OBJECTIFS.png
+      - assets/images/logo.png
+  #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
